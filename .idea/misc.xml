@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/back1_drawable.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/back2_drawable.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/back3_drawable.xml" value="0.227" />
+        <entry key="app/src/main/res/drawable/back4_drawable.xml" value="0.227" />
+        <entry key="app/src/main/res/layout/activity_cocktail1.xml" value="0.253048384817023" />
+        <entry key="app/src/main/res/layout/activity_cocktail2.xml" value="0.23684210526315788" />
+        <entry key="app/src/main/res/layout/activity_cocktail3.xml" value="0.23771929824561402" />
+        <entry key="app/src/main/res/layout/activity_initial.xml" value="0.2620688175809556" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.20634920634920634" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/device_list.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.22916666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

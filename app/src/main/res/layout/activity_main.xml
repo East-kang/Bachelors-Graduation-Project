@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back2_drawable">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:text="CHOOSE"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#EA96B2"
+        android:textSize="70sp"
+        android:fontFamily="@font/smufont"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/nameInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:hint="칵테일 이름 입력"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="@font/smufont"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/smufont"
+        android:textSize="30dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/back4_drawable"
+        android:hint="칵테일 이름1"/>
+
+    <EditText
+        android:id="@+id/nameInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:hint="칵테일 이름 입력"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="@font/smufont"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/back4_drawable"
+        android:fontFamily="@font/smufont"
+        android:textSize="30dp"
+        android:hint="칵테일 이름2"/>
+
+    <EditText
+        android:id="@+id/nameInput3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:hint="칵테일 이름 입력"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="@font/smufont"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/back4_drawable"
+        android:fontFamily="@font/smufont"
+        android:textSize="30dp"
+        android:hint="칵테일 이름3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/drink1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="첫번째 음료"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/smufont"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/drink2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="두번째 음료"
+            android:layout_weight="1"
+            android:inputType="textPersonName"
+            android:text=""
+            android:fontFamily="@font/smufont"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/drink3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="세번째 음료"
+            android:inputType="textPersonName"
+            android:text=""
+            android:fontFamily="@font/smufont"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
